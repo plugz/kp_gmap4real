@@ -1,0 +1,5 @@
+faders:
+cs01, cs02, cs03, cs04, cs06, cs07
+
+buttons:
+cs00, cs05
