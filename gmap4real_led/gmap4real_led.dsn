@@ -1,0 +1,403 @@
+(pcb /home/plug/programming_land/kicad_projects/gmap4real/gmap4real_led/gmap4real_led.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.5")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  223520 -105410  52070 -105410  52070 -72390  223520 -72390
+            223520 -105410)
+    )
+    (via "Via[0-1]_800:400_um" "Via[0-1]_800:500_um")
+    (rule
+      (width 250)
+      (clearance 250.1)
+      (clearance 250.1 (type default_smd))
+      (clearance 62.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component MountingHole:MountingHole_3.2mm_M3_Pad
+      (place centerhole3 205740 -88138 front 0 (PN MountingHole))
+      (place centerhole2 68580 -88138 front 0 (PN MountingHole))
+      (place centerhole1 205740 -83820 front 0 (PN MountingHole))
+      (place centerhole0 68580 -83820 front 0 (PN MountingHole))
+    )
+    (component Resistors_SMD:R_0402
+      (place r_led15 222250 -100330 front 270 (PN R))
+      (place r_led14 199390 -100330 front 270 (PN R))
+      (place r_led13 176530 -100330 front 270 (PN R))
+      (place r_led12 153670 -100330 front 270 (PN R))
+      (place r_led11 130810 -100330 front 270 (PN R))
+      (place r_led10 107950 -100330 front 270 (PN R))
+      (place r_led9 85090 -100330 front 270 (PN R))
+      (place r_led8 62230 -100330 front 270 (PN R))
+      (place r_led7 222250 -77470 front 270 (PN R))
+      (place r_led6 199390 -77470 front 270 (PN R))
+      (place r_led5 176530 -77470 front 270 (PN R))
+      (place r_led4 153670 -77470 front 270 (PN R))
+      (place r_led3 130810 -77470 front 270 (PN R))
+      (place r_led2 107950 -77470 front 270 (PN R))
+      (place r_led1 85090 -77470 front 270 (PN R))
+      (place r_led0 62230 -77470 front 270 (PN R))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (place pwr_port0 69850 -101600 back 270 (PN Conn_02x04_Odd_Even))
+    )
+    (component "LEDs:LED_WS2812-PLCC6"
+      (place led15 217170 -99568 front 180 (PN WS2813))
+      (place led14 194310 -99568 front 180 (PN WS2813))
+      (place led13 171450 -99568 front 180 (PN WS2813))
+      (place led12 148590 -99568 front 180 (PN WS2813))
+      (place led11 125730 -99568 front 180 (PN WS2813))
+      (place led10 102870 -99568 front 180 (PN WS2813))
+      (place led9 80010 -99568 front 180 (PN WS2813))
+      (place led8 57150 -99568 front 180 (PN WS2813))
+      (place led7 217170 -76708 front 180 (PN WS2813))
+      (place led6 194310 -76708 front 180 (PN WS2813))
+      (place led5 171450 -76708 front 180 (PN WS2813))
+      (place led4 148590 -76708 front 180 (PN WS2813))
+      (place led3 125730 -76708 front 180 (PN WS2813))
+      (place led2 102870 -76708 front 180 (PN WS2813))
+      (place led1 79970 -76708 front 180 (PN WS2813))
+      (place led0 57150 -76708 front 180 (PN WS2813))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place dataout_port0 208280 -101600 back 270 (PN Conn_01x03))
+      (place datain_port0 71120 -74930 back 270 (PN Conn_01x03))
+      (place bin_jmp0 54610 -90170 back 180 (PN Jumper_3_Open))
+    )
+    (component Capacitors_SMD:C_0805_HandSoldering
+      (place c_led15 217170 -104140 front 0 (PN C))
+      (place c_led14 194310 -104140 front 0 (PN C))
+      (place c_led13 171450 -104140 front 0 (PN C))
+      (place c_led12 148590 -104140 front 0 (PN C))
+      (place c_led11 125730 -104140 front 0 (PN C))
+      (place c_led10 102870 -104140 front 0 (PN C))
+      (place c_led9 79990 -104140 front 0 (PN C))
+      (place c_led8 57150 -104140 front 0 (PN C))
+      (place c_led7 217170 -81280 front 0 (PN C))
+      (place c_led6 194310 -81280 front 0 (PN C))
+      (place c_led5 171450 -81280 front 0 (PN C))
+      (place c_led4 148590 -81280 front 0 (PN C))
+      (place c_led3 125730 -81280 front 0 (PN C))
+      (place c_led2 102870 -81280 front 0 (PN C))
+      (place c_led1 80010 -81280 front 0 (PN C))
+      (place c_led0 57150 -81280 front 0 (PN C))
+    )
+  )
+  (library
+    (image MountingHole:MountingHole_3.2mm_M3_Pad
+      (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
+            2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
+            -558.148 -3404.55  -1276.98 -3204.97  -1936.1 -2855.53  -2504.68 -2372.56
+            -2956.16 -1778.66  -3269.4 -1101.59  -3429.78 -373.011  -3429.78 373.011
+            -3269.4 1101.59  -2956.16 1778.66  -2504.68 2372.56  -1936.1 2855.53
+            -1276.98 3204.97  -558.148 3404.55  186.779 3444.94  922.973 3324.25
+            1616.01 3048.12  2233.48 2629.46  2746.52 2087.85  3131.14 1448.62
+            3369.34 741.648  3450 0))
+      (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
+            1995.17 -2501.86  1388.43 -2883.1  712.067 -3119.77  0 -3200
+            -712.067 -3119.77  -1388.43 -2883.1  -1995.17 -2501.86  -2501.86 -1995.17
+            -2883.1 -1388.43  -3119.77 -712.067  -3200 0  -3119.77 712.067
+            -2883.1 1388.43  -2501.86 1995.17  -1995.17 2501.86  -1388.43 2883.1
+            -712.067 3119.77  0 3200  712.067 3119.77  1388.43 2883.1  1995.17 2501.86
+            2501.86 1995.17  2883.1 1388.43  3119.77 712.067  3200 0))
+      (pin Round[A]Pad_6400_um 1 0 0)
+    )
+    (image Resistors_SMD:R_0402
+      (outline (path signal 100  -500 -250  -500 250))
+      (outline (path signal 100  500 -250  -500 -250))
+      (outline (path signal 100  500 250  500 -250))
+      (outline (path signal 100  -500 250  500 250))
+      (outline (path signal 120  250 530  -250 530))
+      (outline (path signal 120  -250 -530  250 -530))
+      (outline (path signal 50  -800 450  800 450))
+      (outline (path signal 50  -800 450  -800 -450))
+      (outline (path signal 50  800 -450  800 450))
+      (outline (path signal 50  800 -450  -800 -450))
+      (pin Rect[T]Pad_400x600_um 1 -450 0)
+      (pin Rect[T]Pad_400x600_um 2 450 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -4350  1800 1800))
+      (outline (path signal 50  -1800 -4350  1800 -4350))
+      (outline (path signal 50  -1800 1800  -1800 -4350))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -3870))
+      (outline (path signal 120  -1330 -1270  -1330 -3870))
+      (outline (path signal 120  -1330 -3870  1330 -3870))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -3810  -1270 635))
+      (outline (path signal 100  1270 -3810  -1270 -3810))
+      (outline (path signal 100  1270 1270  1270 -3810))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image "LEDs:LED_WS2812-PLCC6"
+      (outline (path signal 50  3750 2850  -3750 2850))
+      (outline (path signal 50  3750 -2850  3750 2850))
+      (outline (path signal 50  -3750 -2850  3750 -2850))
+      (outline (path signal 50  -3750 2850  -3750 -2850))
+      (outline (path signal 100  -2500 1500  -1500 2500))
+      (outline (path signal 100  -2500 2500  2500 2500))
+      (outline (path signal 100  2500 2500  2500 -2500))
+      (outline (path signal 100  2500 -2500  -2500 -2500))
+      (outline (path signal 100  -2500 -2500  -2500 2500))
+      (outline (path signal 120  -3500 -2600  3500 -2600))
+      (outline (path signal 120  -3500 1550  -3500 2550))
+      (outline (path signal 120  -3500 2550  3500 2550))
+      (outline (path signal 100  2000 0  1918.99 -563.465  1682.51 -1081.28  1309.72 -1511.5
+            830.83 -1819.26  284.63 -1979.64  -284.63 -1979.64  -830.83 -1819.26
+            -1309.72 -1511.5  -1682.51 -1081.28  -1918.99 -563.465  -2000 0
+            -1918.99 563.465  -1682.51 1081.28  -1309.72 1511.5  -830.83 1819.26
+            -284.63 1979.64  284.63 1979.64  830.83 1819.26  1309.72 1511.5
+            1682.51 1081.28  1918.99 563.465  2000 0))
+      (pin Rect[T]Pad_1600x1000_um 4 2500 -1600)
+      (pin Rect[T]Pad_1600x1000_um 5 2500 0)
+      (pin Rect[T]Pad_1600x1000_um 6 2500 1600)
+      (pin Rect[T]Pad_1600x1000_um 3 -2500 -1600)
+      (pin Rect[T]Pad_1600x1000_um 2 -2500 0)
+      (pin Rect[T]Pad_1600x1000_um 1 -2500 1600)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -6850  1800 1800))
+      (outline (path signal 50  -1800 -6850  1800 -6850))
+      (outline (path signal 50  -1800 1800  -1800 -6850))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -6410))
+      (outline (path signal 120  -1330 -1270  -1330 -6410))
+      (outline (path signal 120  -1330 -6410  1330 -6410))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -6350  -1270 635))
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (outline (path signal 100  1270 1270  1270 -6350))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Capacitors_SMD:C_0805_HandSoldering
+      (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 120  500 850  -500 850))
+      (outline (path signal 120  -500 -850  500 -850))
+      (outline (path signal 50  -2250 880  2250 880))
+      (outline (path signal 50  -2250 880  -2250 -870))
+      (outline (path signal 50  2250 -870  2250 880))
+      (outline (path signal 50  2250 -870  -2250 -870))
+      (pin Rect[T]Pad_1500x1250_um 1 -1250 0)
+      (pin Rect[T]Pad_1500x1250_um 2 1250 0)
+    )
+    (padstack Round[A]Pad_6400_um
+      (shape (circle F.Cu 6400))
+      (shape (circle B.Cu 6400))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_400x600_um
+      (shape (rect F.Cu -200 -300 200 300))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1250_um
+      (shape (rect F.Cu -750 -625 750 625))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600x1000_um
+      (shape (rect F.Cu -800 -500 800 500))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:500_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net gnd
+      (pins pwr_port0-1 led15-5 led14-5 led13-5 led12-5 led11-5 led10-5 led9-5 led8-5
+        led7-5 led6-5 led5-5 led4-5 led3-5 led2-5 led1-5 led0-5 dataout_port0-1 datain_port0-1
+        c_led15-1 c_led14-1 c_led13-1 c_led12-1 c_led11-1 c_led10-1 c_led9-1 c_led8-1
+        c_led7-1 c_led6-1 c_led5-1 c_led4-1 c_led3-1 c_led2-1 c_led1-1 c_led0-1 bin_jmp0-1)
+    )
+    (net bin
+      (pins datain_port0-3 bin_jmp0-3)
+    )
+    (net bin_led0
+      (pins led0-6 bin_jmp0-2)
+    )
+    (net "Net-(c_led0-Pad2)"
+      (pins r_led0-2 led0-1 c_led0-2)
+    )
+    (net "Net-(c_led1-Pad2)"
+      (pins r_led1-2 led1-1 c_led1-2)
+    )
+    (net "Net-(c_led2-Pad2)"
+      (pins r_led2-2 led2-1 c_led2-2)
+    )
+    (net "Net-(c_led3-Pad2)"
+      (pins r_led3-2 led3-1 c_led3-2)
+    )
+    (net "Net-(c_led4-Pad2)"
+      (pins r_led4-2 led4-1 c_led4-2)
+    )
+    (net "Net-(c_led5-Pad2)"
+      (pins r_led5-2 led5-1 c_led5-2)
+    )
+    (net "Net-(c_led6-Pad2)"
+      (pins r_led6-2 led6-1 c_led6-2)
+    )
+    (net "Net-(c_led7-Pad2)"
+      (pins r_led7-2 led7-1 c_led7-2)
+    )
+    (net "Net-(c_led8-Pad2)"
+      (pins r_led8-2 led8-1 c_led8-2)
+    )
+    (net "Net-(c_led9-Pad2)"
+      (pins r_led9-2 led9-1 c_led9-2)
+    )
+    (net "Net-(c_led10-Pad2)"
+      (pins r_led10-2 led10-1 c_led10-2)
+    )
+    (net "Net-(c_led11-Pad2)"
+      (pins r_led11-2 led11-1 c_led11-2)
+    )
+    (net "Net-(c_led12-Pad2)"
+      (pins r_led12-2 led12-1 c_led12-2)
+    )
+    (net "Net-(c_led13-Pad2)"
+      (pins r_led13-2 led13-1 c_led13-2)
+    )
+    (net "Net-(c_led14-Pad2)"
+      (pins r_led14-2 led14-1 c_led14-2)
+    )
+    (net "Net-(c_led15-Pad2)"
+      (pins r_led15-2 led15-1 c_led15-2)
+    )
+    (net dout
+      (pins led15-3 dataout_port0-2)
+    )
+    (net din_led0
+      (pins led1-6 led0-4)
+    )
+    (net din_led1
+      (pins led2-6 led1-4 led0-3)
+    )
+    (net vcc
+      (pins r_led15-1 r_led14-1 r_led13-1 r_led12-1 r_led11-1 r_led10-1 r_led9-1 r_led8-1
+        r_led7-1 r_led6-1 r_led5-1 r_led4-1 r_led3-1 r_led2-1 r_led1-1 r_led0-1 pwr_port0-2
+        led15-2 led14-2 led13-2 led12-2 led11-2 led10-2 led9-2 led8-2 led7-2 led6-2
+        led5-2 led4-2 led3-2 led2-2 led1-2 led0-2)
+    )
+    (net din_led2
+      (pins led3-6 led2-4 led1-3)
+    )
+    (net din_led3
+      (pins led4-6 led3-4 led2-3)
+    )
+    (net din_led4
+      (pins led5-6 led4-4 led3-3)
+    )
+    (net din_led5
+      (pins led6-6 led5-4 led4-3)
+    )
+    (net din_led6
+      (pins led7-6 led6-4 led5-3)
+    )
+    (net din_led7
+      (pins led8-6 led7-4 led6-3)
+    )
+    (net din_led8
+      (pins led9-6 led8-4 led7-3)
+    )
+    (net din_led9
+      (pins led10-6 led9-4 led8-3)
+    )
+    (net din_led10
+      (pins led11-6 led10-4 led9-3)
+    )
+    (net din_led11
+      (pins led12-6 led11-4 led10-3)
+    )
+    (net din_led12
+      (pins led13-6 led12-4 led11-3)
+    )
+    (net din_led13
+      (pins led14-6 led13-4 led12-3)
+    )
+    (net din_led14
+      (pins led15-6 led14-4 led13-3)
+    )
+    (net din_led15
+      (pins led15-4 led14-3)
+    )
+    (class kicad_default "" 3.3v "Net-(c_led0-Pad2)" "Net-(c_led1-Pad2)" "Net-(c_led10-Pad2)"
+      "Net-(c_led11-Pad2)" "Net-(c_led12-Pad2)" "Net-(c_led13-Pad2)" "Net-(c_led14-Pad2)"
+      "Net-(c_led15-Pad2)" "Net-(c_led2-Pad2)" "Net-(c_led3-Pad2)" "Net-(c_led4-Pad2)"
+      "Net-(c_led5-Pad2)" "Net-(c_led6-Pad2)" "Net-(c_led7-Pad2)" "Net-(c_led8-Pad2)"
+      "Net-(c_led9-Pad2)" "Net-(jmp_0-Pad2)" "Net-(jmp_1-Pad2)" "Net-(jmp_2-Pad2)"
+      bin bin_led0 bout btn00 btn01 btn02 btn03 btn04 btn05 btn06 btn07 btn08
+      btn09 btn10 btn11 btn12 btn13 btn14 btn15 cs23s17 din din_led0 din_led1
+      din_led10 din_led11 din_led12 din_led13 din_led14 din_led15 din_led2
+      din_led3 din_led4 din_led5 din_led6 din_led7 din_led8 din_led9 dout
+      miso mosi sck
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 250.1)
+      )
+    )
+    (class pwr gnd vcc
+      (circuit
+        (use_via Via[0-1]_800:500_um)
+      )
+      (rule
+        (width 500)
+        (clearance 250.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
