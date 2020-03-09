@@ -1,9 +1,9 @@
-(pcb /home/plug/programming_land/kicad_projects/gmap4real/gmap4real_b/gmap4real_b.dsn
+(pcb D:\kicad_projects\kp_gmap4real\gmap4real_b\gmap4real_b.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "5.1.5")
+    (host_version "(5.1.5)-3")
   )
   (resolution um 10)
   (unit um)
@@ -368,6 +368,18 @@
     )
     (net "Net-(jmp_2-Pad2)"
       (pins jmp_2-2 mcp23s17_0-15)
+    )
+    (net "Net-(mcp23s17_0-Pad19)"
+      (pins mcp23s17_0-19)
+    )
+    (net "Net-(mcp23s17_0-Pad20)"
+      (pins mcp23s17_0-20)
+    )
+    (net agnd
+      (pins port0-2)
+    )
+    (net "Net-(port0-Pad4)"
+      (pins port0-4)
     )
     (class kicad_default "" 3.3v "Net-(jmp_0-Pad2)" "Net-(jmp_1-Pad2)" "Net-(jmp_2-Pad2)"
       "Net-(mcp23s17_0-Pad19)" "Net-(mcp23s17_0-Pad20)" "Net-(port0-Pad4)"

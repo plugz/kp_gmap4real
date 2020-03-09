@@ -1,9 +1,9 @@
-(pcb /home/plug/programming_land/kicad_projects/gmap4real/gmap4real_teensy/gmap4real_teensy.dsn
+(pcb D:\kicad_projects\kp_gmap4real\gmap4real_teensy\gmap4real_teensy.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "5.1.5")
+    (host_version "(5.1.5)-3")
   )
   (resolution um 10)
   (unit um)
@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  217170 -121920  67310 -121920  67310 -67310  217170 -67310
-            217170 -121920)
+      (path pcb 0  212090 -110490  72390 -110490  72390 -78740  212090 -78740
+            212090 -110490)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,41 +34,41 @@
   )
   (placement
     (component teensy:Teensy35_36
-      (place teensy1 143510 -93980 front 0 (PN Teensy3.6))
+      (place teensy1 125730 -94488 front 0 (PN Teensy3.6))
     )
     (component "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal"
-      (place portf5 78740 -107950 front 180 (PN Conn_02x04_Counter_Clockwise))
-      (place portf4 88900 -110490 front 270 (PN Conn_02x04_Counter_Clockwise))
-      (place portf3 107950 -110490 front 270 (PN Conn_02x04_Counter_Clockwise))
-      (place portf0 165100 -110490 front 270 (PN Conn_02x04_Counter_Clockwise))
-      (place portb11 184150 -110490 front 270 (PN Conn_02x04_Counter_Clockwise))
-      (place portb10 203200 -110490 front 270 (PN Conn_02x04_Counter_Clockwise))
-      (place portb9 205740 -100330 front 0 (PN Conn_02x04_Counter_Clockwise))
-      (place portb8 205740 -81280 front 0 (PN Conn_02x04_Counter_Clockwise))
-      (place portb7 195580 -78740 front 90 (PN Conn_02x04_Counter_Clockwise))
-      (place portb6 176530 -78740 front 90 (PN Conn_02x04_Counter_Clockwise))
-      (place portb5 157480 -78740 front 90 (PN Conn_02x04_Counter_Clockwise))
-      (place portb4 138430 -78740 front 90 (PN Conn_02x04_Counter_Clockwise))
-      (place portb0 78740 -88900 front 180 (PN Conn_02x04_Counter_Clockwise))
-      (place portf1 146050 -110490 front 270 (PN Conn_02x04_Counter_Clockwise))
-      (place portb2 100330 -78740 front 90 (PN Conn_02x04_Counter_Clockwise))
+      (place portf5 77470 -107950 front 180 (PN Conn_02x04_Counter_Clockwise))
+      (place portf4 88900 -105410 front 270 (PN Conn_02x04_Counter_Clockwise))
+      (place portf3 107950 -105410 front 270 (PN Conn_02x04_Counter_Clockwise))
+      (place portf0 165100 -105410 front 270 (PN Conn_02x04_Counter_Clockwise))
+      (place portb11 184150 -105410 front 270 (PN Conn_02x04_Counter_Clockwise))
+      (place portb10 203200 -105410 front 270 (PN Conn_02x04_Counter_Clockwise))
+      (place portb9 207010 -100330 front 0 (PN Conn_02x04_Counter_Clockwise))
+      (place portb8 207010 -81280 front 0 (PN Conn_02x04_Counter_Clockwise))
+      (place portb7 195580 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
+      (place portb6 176530 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
+      (place portb5 157480 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
+      (place portb4 138430 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
+      (place portb0 77470 -88900 front 180 (PN Conn_02x04_Counter_Clockwise))
+      (place portf1 146050 -105410 front 270 (PN Conn_02x04_Counter_Clockwise))
+      (place portb2 100330 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
     )
     (component "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal::1"
-      (place portf2 127000 -110490 front 270 (PN Conn_02x04_Counter_Clockwise))
-      (place portb3 119380 -78740 front 90 (PN Conn_02x04_Counter_Clockwise))
-      (place portb1 81280 -78740 front 90 (PN Conn_02x04_Counter_Clockwise))
+      (place portf2 127000 -105410 front 270 (PN Conn_02x04_Counter_Clockwise))
+      (place portb3 119380 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
+      (place portb1 81280 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place dbg1 184150 -91440 front 0 (PN Conn_01x03))
+      (place dbg1 190500 -92710 front 0 (PN Conn_01x03))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-      (place porti2c0 194310 -88900 front 0 (PN Conn_01x05))
+      (place porti2c0 170180 -88900 front 0 (PN Conn_01x05))
     )
     (component MountingHole:MountingHole_3.2mm_M3_Pad
-      (place hole4 213360 -118110 front 0 (PN MountingHole))
-      (place hole3 71120 -118110 front 0 (PN MountingHole))
-      (place hole2 213360 -71120 front 0 (PN MountingHole))
-      (place hole1 71120 -71120 front 0 (PN MountingHole))
+      (place hole4 200660 -100330 front 0 (PN MountingHole))
+      (place hole3 83820 -100330 front 0 (PN MountingHole))
+      (place hole2 200660 -88900 front 0 (PN MountingHole))
+      (place hole1 83820 -88900 front 0 (PN MountingHole))
     )
   )
   (library
@@ -446,30 +446,8 @@
     (net dbgrx
       (pins teensy1-48 dbg1-2)
     )
-    (class kicad_default "" 3.3v "Net-(portb0-Pad4)" "Net-(portb1-Pad4)" "Net-(portb10-Pad4)"
-      "Net-(portb11-Pad4)" "Net-(portb2-Pad4)" "Net-(portb3-Pad4)" "Net-(portb4-Pad4)"
-      "Net-(portb5-Pad4)" "Net-(portb6-Pad4)" "Net-(portb7-Pad4)" "Net-(portb8-Pad4)"
-      "Net-(portb9-Pad4)" "Net-(portf0-Pad6)" "Net-(portf1-Pad6)" "Net-(portf2-Pad6)"
-      "Net-(portf3-Pad6)" "Net-(portf4-Pad6)" "Net-(portf5-Pad6)" "Net-(teensy1-Pad10)"
-      "Net-(teensy1-Pad15)" "Net-(teensy1-Pad16)" "Net-(teensy1-Pad17)" "Net-(teensy1-Pad18)"
-      "Net-(teensy1-Pad2)" "Net-(teensy1-Pad20)" "Net-(teensy1-Pad21)" "Net-(teensy1-Pad25)"
-      "Net-(teensy1-Pad27)" "Net-(teensy1-Pad28)" "Net-(teensy1-Pad29)" "Net-(teensy1-Pad3)"
-      "Net-(teensy1-Pad30)" "Net-(teensy1-Pad31)" "Net-(teensy1-Pad32)" "Net-(teensy1-Pad33)"
-      "Net-(teensy1-Pad34)" "Net-(teensy1-Pad35)" "Net-(teensy1-Pad36)" "Net-(teensy1-Pad37)"
-      "Net-(teensy1-Pad38)" "Net-(teensy1-Pad39)" "Net-(teensy1-Pad4)" "Net-(teensy1-Pad40)"
-      "Net-(teensy1-Pad41)" "Net-(teensy1-Pad43)" "Net-(teensy1-Pad44)" "Net-(teensy1-Pad47)"
-      "Net-(teensy1-Pad5)" "Net-(teensy1-Pad51)" "Net-(teensy1-Pad53)" "Net-(teensy1-Pad54)"
-      "Net-(teensy1-Pad55)" "Net-(teensy1-Pad56)" "Net-(teensy1-Pad57)" "Net-(teensy1-Pad58)"
-      "Net-(teensy1-Pad59)" "Net-(teensy1-Pad6)" "Net-(teensy1-Pad60)" "Net-(teensy1-Pad61)"
-      "Net-(teensy1-Pad62)" "Net-(teensy1-Pad63)" "Net-(teensy1-Pad64)" "Net-(teensy1-Pad65)"
-      "Net-(teensy1-Pad66)" "Net-(teensy1-Pad67)" "Net-(teensy1-Pad68)" "Net-(teensy1-Pad69)"
-      "Net-(teensy1-Pad70)" "Net-(teensy1-Pad71)" "Net-(teensy1-Pad72)" "Net-(teensy1-Pad73)"
-      "Net-(teensy1-Pad74)" "Net-(teensy1-Pad75)" "Net-(teensy1-Pad76)" "Net-(teensy1-Pad77)"
-      "Net-(teensy1-Pad78)" "Net-(teensy1-Pad79)" "Net-(teensy1-Pad8)" "Net-(teensy1-Pad80)"
-      "Net-(teensy1-Pad81)" "Net-(teensy1-Pad82)" "Net-(teensy1-Pad83)" "Net-(teensy1-Pad84)"
-      "Net-(teensy1-Pad85)" "Net-(teensy1-Pad86)" "Net-(teensy1-Pad9)" agnd
-      cs00 cs01 cs02 cs03 cs04 cs05 cs06 cs07 dbgrx dbgtx gnd i2csca0 i2cscl0
-      i2csda0 miso0 mosi0 sck0
+    (class kicad_default "" 3.3v agnd cs00 cs01 cs02 cs03 cs05 cs06 cs07 dbgrx
+      dbgtx gnd i2cscl0 miso0 mosi0 sck0
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

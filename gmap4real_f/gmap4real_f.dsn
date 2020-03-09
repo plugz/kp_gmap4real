@@ -1,9 +1,9 @@
-(pcb /home/plug/programming_land/kicad_projects/gmap4real/gmap4real_f/gmap4real_f.dsn
+(pcb D:\kicad_projects\kp_gmap4real\gmap4real_f\gmap4real_f.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "5.1.5")
+    (host_version "(5.1.5)-3")
   )
   (resolution um 10)
   (unit um)
@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  182880 -88900  158750 -88900  158750 -35560  182880 -35560
-            182880 -88900)
+      (path pcb 0  173990 -81280  158750 -81280  158750 -35560  173990 -35560
+            173990 -81280)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,22 +34,22 @@
   )
   (placement
     (component "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal"
-      (place out_port1 166370 -76200 front 180 (PN Conn_02x04_Odd_Even))
-      (place out_port0 166370 -55880 front 180 (PN Conn_02x04_Odd_Even))
+      (place out_port1 162560 -71120 front 180 (PN Conn_02x04_Odd_Even))
+      (place out_port0 162560 -52070 front 180 (PN Conn_02x04_Odd_Even))
     )
     (component "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal::1"
-      (place port0 175260 -68580 front -0 (PN Conn_02x04_Odd_Even))
+      (place port0 170180 -64770 front 0 (PN Conn_02x04_Odd_Even))
     )
     (component "Package_DIP:DIP-16_W7.62mm"
-      (place mcp3008_0 177800 -64770 front 180 (PN MCP3008))
+      (place mcp3008_0 165100 -44450 front 0 (PN MCP3008))
     )
     (component MountingHole:MountingHole_3.2mm_M3_Pad
       (place hole0 162560 -39370 front 0 (PN MountingHole))
-      (place hole3 179070 -85090 front 0 (PN MountingHole))
-      (place hole1 162560 -85090 front 0 (PN MountingHole))
+      (place hole3 170180 -77470 front 0 (PN MountingHole))
+      (place hole1 162560 -77470 front 0 (PN MountingHole))
     )
     (component MountingHole:MountingHole_3.2mm_M3_Pad::1
-      (place hole2 179070 -39370 front 0 (PN MountingHole))
+      (place hole2 170180 -39370 front 0 (PN MountingHole))
     )
   )
   (library
@@ -280,10 +280,8 @@
     (net sck
       (pins port0-8 mcp3008_0-13)
     )
-    (class kicad_default "" 3.3v "Net-(out_port0-Pad7)" "Net-(out_port0-Pad8)"
-      "Net-(out_port1-Pad7)" "Net-(out_port1-Pad8)" "Net-(port0-Pad6)" agnd
-      cs3008 gnd miso mosi sck slider0 slider1 slider2 slider3 slider4 slider5
-      slider6 slider7
+    (class kicad_default "" 3.3v agnd cs3008 gnd miso mosi sck slider0 slider1
+      slider2 slider3 slider4 slider5 slider6 slider7
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
