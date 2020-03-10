@@ -33,6 +33,9 @@
     )
   )
   (placement
+    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (place porti2c0 95250 -91440 front 0 (PN Conn_01x04))
+    )
     (component teensy:Teensy35_36
       (place teensy1 153670 -94488 front 180 (PN Teensy3.6))
     )
@@ -59,10 +62,7 @@
       (place portb1 81280 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place dbg1 111760 -96520 front 180 (PN Conn_01x03))
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-      (place porti2c0 95250 -99060 front 180 (PN Conn_01x05))
+      (place dbg1 113030 -91440 front 0 (PN Conn_01x03))
     )
     (component MountingHole:MountingHole_3.2mm_M3_Pad
       (place hole4 200660 -100330 front 0 (PN MountingHole))
@@ -72,6 +72,27 @@
     )
   )
   (library
+    (image Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -9400  1800 1800))
+      (outline (path signal 50  -1800 -9400  1800 -9400))
+      (outline (path signal 50  -1800 1800  -1800 -9400))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -8950))
+      (outline (path signal 120  -1330 -1270  -1330 -8950))
+      (outline (path signal 120  -1330 -8950  1330 -8950))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -8890  -1270 635))
+      (outline (path signal 100  1270 -8890  -1270 -8890))
+      (outline (path signal 100  1270 1270  1270 -8890))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image teensy:Teensy35_36
       (outline (path signal 150  -30480 -8890  -30480 8890))
       (outline (path signal 150  30480 8890  30480 -8890))
@@ -303,28 +324,6 @@
       (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
       (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  1270 1270  1270 -11430))
-      (outline (path signal 100  1270 -11430  -1270 -11430))
-      (outline (path signal 100  -1270 -11430  -1270 635))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 120  -1330 -11490  1330 -11490))
-      (outline (path signal 120  -1330 -1270  -1330 -11490))
-      (outline (path signal 120  1330 -1270  1330 -11490))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 50  -1800 1800  -1800 -11950))
-      (outline (path signal 50  -1800 -11950  1800 -11950))
-      (outline (path signal 50  1800 -11950  1800 1800))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
-      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
-      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
-    )
     (image MountingHole:MountingHole_3.2mm_M3_Pad
       (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
             2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
@@ -396,9 +395,9 @@
         portb2-7 portb1-7)
     )
     (net 3.3v
-      (pins teensy1-26 portf5-3 portf4-3 portf3-3 portf0-3 portb11-3 portb10-3 portb9-3
-        portb8-3 portb7-3 portb6-3 portb5-3 portb4-3 portb0-3 portf2-3 portf1-3 portb3-3
-        portb2-3 portb1-3 porti2c0-3)
+      (pins porti2c0-2 teensy1-26 portf5-3 portf4-3 portf3-3 portf0-3 portb11-3 portb10-3
+        portb9-3 portb8-3 portb7-3 portb6-3 portb5-3 portb4-3 portb0-3 portf2-3 portf1-3
+        portb3-3 portb2-3 portb1-3)
     )
     (net mosi0
       (pins teensy1-13 portf5-5 portf4-5 portf3-5 portf0-5 portb11-5 portb10-5 portb9-5
@@ -413,9 +412,9 @@
       (pins teensy1-11 portb11-6 portb10-6 portb9-6 portb8-6)
     )
     (net gnd
-      (pins teensy1-1 portf5-1 portf4-1 portf3-1 portf0-1 portb11-1 portb10-1 portb9-1
-        portb8-1 portb7-1 portb6-1 portb5-1 portb4-1 portb0-1 portf2-1 portf1-1 portb3-1
-        portb2-1 portb1-1 dbg1-1 porti2c0-1)
+      (pins porti2c0-1 teensy1-1 portf5-1 portf4-1 portf3-1 portf0-1 portb11-1 portb10-1
+        portb9-1 portb8-1 portb7-1 portb6-1 portb5-1 portb4-1 portb0-1 portf2-1 portf1-1
+        portb3-1 portb2-1 portb1-1 dbg1-1)
     )
     (net cs03
       (pins teensy1-49 portf1-4)
@@ -424,12 +423,10 @@
       (pins teensy1-50 portf0-4)
     )
     (net i2cscl0
-      (pins teensy1-46 porti2c0-4)
+      (pins porti2c0-3 teensy1-46)
     )
     (net agnd
-      (pins teensy1-52 portf5-2 portf4-2 portf3-2 portf0-2 portb11-2 portb10-2 portb9-2
-        portb8-2 portb7-2 portb6-2 portb5-2 portb4-2 portb0-2 portf2-2 portf1-2 portb3-2
-        portb2-2 portb1-2 porti2c0-2)
+      (pins teensy1-52 portf5-2 portf4-2 portf3-2 portf0-2 portf2-2 portf1-2)
     )
     (net cs07
       (pins teensy1-22 portf5-4)
@@ -504,7 +501,7 @@
       (pins portf5-6)
     )
     (net i2csda0
-      (pins porti2c0-5)
+      (pins porti2c0-4)
     )
     (net "Net-(teensy1-Pad62)"
       (pins teensy1-62)
@@ -713,9 +710,48 @@
     (net "Net-(teensy1-Pad17)"
       (pins teensy1-17)
     )
-    (class kicad_default "" 3.3v "Net-(portb0-Pad4)" "Net-(portb1-Pad4)" "Net-(portb10-Pad4)"
-      "Net-(portb11-Pad4)" "Net-(portb2-Pad4)" "Net-(portb3-Pad4)" "Net-(portb4-Pad4)"
-      "Net-(portb5-Pad4)" "Net-(portb6-Pad4)" "Net-(portb7-Pad4)" "Net-(portb8-Pad4)"
+    (net "Net-(portb0-Pad2)"
+      (pins portb0-2)
+    )
+    (net "Net-(portb1-Pad2)"
+      (pins portb1-2)
+    )
+    (net "Net-(portb2-Pad2)"
+      (pins portb2-2)
+    )
+    (net "Net-(portb3-Pad2)"
+      (pins portb3-2)
+    )
+    (net "Net-(portb4-Pad2)"
+      (pins portb4-2)
+    )
+    (net "Net-(portb5-Pad2)"
+      (pins portb5-2)
+    )
+    (net "Net-(portb6-Pad2)"
+      (pins portb6-2)
+    )
+    (net "Net-(portb7-Pad2)"
+      (pins portb7-2)
+    )
+    (net "Net-(portb8-Pad2)"
+      (pins portb8-2)
+    )
+    (net "Net-(portb9-Pad2)"
+      (pins portb9-2)
+    )
+    (net "Net-(portb10-Pad2)"
+      (pins portb10-2)
+    )
+    (net "Net-(portb11-Pad2)"
+      (pins portb11-2)
+    )
+    (class kicad_default "" 3.3v "Net-(portb0-Pad2)" "Net-(portb0-Pad4)" "Net-(portb1-Pad2)"
+      "Net-(portb1-Pad4)" "Net-(portb10-Pad2)" "Net-(portb10-Pad4)" "Net-(portb11-Pad2)"
+      "Net-(portb11-Pad4)" "Net-(portb2-Pad2)" "Net-(portb2-Pad4)" "Net-(portb3-Pad2)"
+      "Net-(portb3-Pad4)" "Net-(portb4-Pad2)" "Net-(portb4-Pad4)" "Net-(portb5-Pad2)"
+      "Net-(portb5-Pad4)" "Net-(portb6-Pad2)" "Net-(portb6-Pad4)" "Net-(portb7-Pad2)"
+      "Net-(portb7-Pad4)" "Net-(portb8-Pad2)" "Net-(portb8-Pad4)" "Net-(portb9-Pad2)"
       "Net-(portb9-Pad4)" "Net-(portf0-Pad6)" "Net-(portf1-Pad6)" "Net-(portf2-Pad6)"
       "Net-(portf3-Pad6)" "Net-(portf4-Pad6)" "Net-(portf5-Pad6)" "Net-(teensy1-Pad10)"
       "Net-(teensy1-Pad15)" "Net-(teensy1-Pad16)" "Net-(teensy1-Pad17)" "Net-(teensy1-Pad18)"

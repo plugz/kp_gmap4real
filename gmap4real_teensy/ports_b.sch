@@ -34,8 +34,6 @@ Text GLabel 2300 2500 0    50   Input ~ 0
 miso0
 Text GLabel 2800 2500 2    50   Input ~ 0
 sck0
-Text GLabel 2800 2200 2    50   Input ~ 0
-agnd
 Text GLabel 2800 2400 2    50   Input ~ 0
 cs00
 $Comp
@@ -59,8 +57,6 @@ Text GLabel 3800 2500 0    50   Input ~ 0
 miso0
 Text GLabel 4300 2500 2    50   Input ~ 0
 sck0
-Text GLabel 4300 2200 2    50   Input ~ 0
-agnd
 Text GLabel 4300 2400 2    50   Input ~ 0
 cs00
 $Comp
@@ -84,8 +80,6 @@ Text GLabel 5150 2500 0    50   Input ~ 0
 miso0
 Text GLabel 5650 2500 2    50   Input ~ 0
 sck0
-Text GLabel 5650 2200 2    50   Input ~ 0
-agnd
 Text GLabel 5650 2400 2    50   Input ~ 0
 cs00
 $Comp
@@ -109,8 +103,6 @@ Text GLabel 6500 2500 0    50   Input ~ 0
 miso0
 Text GLabel 7000 2500 2    50   Input ~ 0
 sck0
-Text GLabel 7000 2200 2    50   Input ~ 0
-agnd
 Text GLabel 7000 2400 2    50   Input ~ 0
 cs00
 $Comp
@@ -134,8 +126,6 @@ Text GLabel 2250 3250 0    50   Input ~ 0
 miso0
 Text GLabel 2750 3250 2    50   Input ~ 0
 sck0
-Text GLabel 2750 2950 2    50   Input ~ 0
-agnd
 Text GLabel 2750 3150 2    50   Input ~ 0
 cs00
 $Comp
@@ -159,8 +149,6 @@ Text GLabel 3850 3150 0    50   Input ~ 0
 miso0
 Text GLabel 4350 3150 2    50   Input ~ 0
 sck0
-Text GLabel 4350 2850 2    50   Input ~ 0
-agnd
 Text GLabel 4350 3050 2    50   Input ~ 0
 cs00
 $Comp
@@ -184,8 +172,6 @@ Text GLabel 5250 3200 0    50   Input ~ 0
 miso0
 Text GLabel 5750 3200 2    50   Input ~ 0
 sck0
-Text GLabel 5750 2900 2    50   Input ~ 0
-agnd
 Text GLabel 5750 3100 2    50   Input ~ 0
 cs00
 $Comp
@@ -209,8 +195,6 @@ Text GLabel 6600 3300 0    50   Input ~ 0
 miso0
 Text GLabel 7100 3300 2    50   Input ~ 0
 sck0
-Text GLabel 7100 3000 2    50   Input ~ 0
-agnd
 Text GLabel 7100 3200 2    50   Input ~ 0
 cs00
 $Comp
@@ -234,8 +218,6 @@ Text GLabel 2250 4150 0    50   Input ~ 0
 miso0
 Text GLabel 2750 4150 2    50   Input ~ 0
 sck0
-Text GLabel 2750 3850 2    50   Input ~ 0
-agnd
 Text GLabel 2750 4050 2    50   Input ~ 0
 cs01
 $Comp
@@ -259,8 +241,6 @@ Text GLabel 3750 4150 0    50   Input ~ 0
 miso0
 Text GLabel 4250 4150 2    50   Input ~ 0
 sck0
-Text GLabel 4250 3850 2    50   Input ~ 0
-agnd
 Text GLabel 4250 4050 2    50   Input ~ 0
 cs01
 $Comp
@@ -284,8 +264,6 @@ Text GLabel 5300 4150 0    50   Input ~ 0
 miso0
 Text GLabel 5800 4150 2    50   Input ~ 0
 sck0
-Text GLabel 5800 3850 2    50   Input ~ 0
-agnd
 Text GLabel 5800 4050 2    50   Input ~ 0
 cs01
 $Comp
@@ -309,8 +287,6 @@ Text GLabel 6700 4150 0    50   Input ~ 0
 miso0
 Text GLabel 7200 4150 2    50   Input ~ 0
 sck0
-Text GLabel 7200 3850 2    50   Input ~ 0
-agnd
 Text GLabel 7200 4050 2    50   Input ~ 0
 cs01
 $EndSCHEMATC

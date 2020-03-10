@@ -11,7 +11,7 @@
     (via_costs 100)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2733)
+    (start_pass_no 2112)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -76,7 +76,8 @@
     "Net-(teensy1-Pad3)" "Net-(teensy1-Pad4)" "Net-(teensy1-Pad5)" "Net-(teensy1-Pad6)" "Net-(teensy1-Pad8)" "Net-(teensy1-Pad9)" "Net-(teensy1-Pad10)" "Net-(teensy1-Pad37)"
     "Net-(teensy1-Pad36)" "Net-(teensy1-Pad35)" "Net-(teensy1-Pad34)" "Net-(teensy1-Pad33)" "Net-(teensy1-Pad32)" "Net-(teensy1-Pad31)" "Net-(teensy1-Pad30)" "Net-(teensy1-Pad29)"
     "Net-(teensy1-Pad28)" "Net-(teensy1-Pad27)" "Net-(teensy1-Pad25)" "Net-(teensy1-Pad21)" "Net-(teensy1-Pad15)" "Net-(teensy1-Pad16)" "Net-(teensy1-Pad20)" "Net-(teensy1-Pad18)"
-    "Net-(teensy1-Pad17)"
+    "Net-(teensy1-Pad17)" "Net-(portb0-Pad2)" "Net-(portb1-Pad2)" "Net-(portb2-Pad2)" "Net-(portb3-Pad2)" "Net-(portb4-Pad2)" "Net-(portb5-Pad2)" "Net-(portb6-Pad2)"
+    "Net-(portb7-Pad2)" "Net-(portb8-Pad2)" "Net-(portb9-Pad2)" "Net-(portb10-Pad2)" "Net-(portb11-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
