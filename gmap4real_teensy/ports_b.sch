@@ -237,7 +237,7 @@ sck0
 Text GLabel 2750 3850 2    50   Input ~ 0
 agnd
 Text GLabel 2750 4050 2    50   Input ~ 0
-cs05
+cs01
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even portb9
 U 1 1 5E46EC4A
@@ -262,7 +262,7 @@ sck0
 Text GLabel 4250 3850 2    50   Input ~ 0
 agnd
 Text GLabel 4250 4050 2    50   Input ~ 0
-cs05
+cs01
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even portb10
 U 1 1 5E46F314
@@ -287,7 +287,7 @@ sck0
 Text GLabel 5800 3850 2    50   Input ~ 0
 agnd
 Text GLabel 5800 4050 2    50   Input ~ 0
-cs05
+cs01
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even portb11
 U 1 1 5E46FBFA
@@ -312,5 +312,5 @@ sck0
 Text GLabel 7200 3850 2    50   Input ~ 0
 agnd
 Text GLabel 7200 4050 2    50   Input ~ 0
-cs05
+cs01
 $EndSCHEMATC

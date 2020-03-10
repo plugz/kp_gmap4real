@@ -34,7 +34,7 @@
   )
   (placement
     (component teensy:Teensy35_36
-      (place teensy1 125730 -94488 front 0 (PN Teensy3.6))
+      (place teensy1 153670 -94488 front 180 (PN Teensy3.6))
     )
     (component "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal"
       (place portf5 77470 -107950 front 180 (PN Conn_02x04_Counter_Clockwise))
@@ -59,10 +59,10 @@
       (place portb1 81280 -83820 front 90 (PN Conn_02x04_Counter_Clockwise))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place dbg1 190500 -92710 front 0 (PN Conn_01x03))
+      (place dbg1 111760 -96520 front 180 (PN Conn_01x03))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-      (place porti2c0 170180 -88900 front 0 (PN Conn_01x05))
+      (place porti2c0 95250 -99060 front 180 (PN Conn_01x05))
     )
     (component MountingHole:MountingHole_3.2mm_M3_Pad
       (place hole4 200660 -100330 front 0 (PN MountingHole))
@@ -410,7 +410,7 @@
         portb1-6)
     )
     (net cs01
-      (pins teensy1-11 portf0-4)
+      (pins teensy1-11 portb11-6 portb10-6 portb9-6 portb8-6)
     )
     (net gnd
       (pins teensy1-1 portf5-1 portf4-1 portf3-1 portf0-1 portb11-1 portb10-1 portb9-1
@@ -418,10 +418,10 @@
         portb2-1 portb1-1 dbg1-1 porti2c0-1)
     )
     (net cs03
-      (pins teensy1-49 portf2-4)
+      (pins teensy1-49 portf1-4)
     )
     (net cs02
-      (pins teensy1-50 portf1-4)
+      (pins teensy1-50 portf0-4)
     )
     (net i2cscl0
       (pins teensy1-46 porti2c0-4)
@@ -435,7 +435,7 @@
       (pins teensy1-22 portf5-4)
     )
     (net cs05
-      (pins teensy1-23 portf3-4 portb11-6 portb10-6 portb9-6 portb8-6)
+      (pins teensy1-23 portf3-4)
     )
     (net cs06
       (pins teensy1-24 portf4-4)
@@ -446,8 +446,297 @@
     (net dbgrx
       (pins teensy1-48 dbg1-2)
     )
-    (class kicad_default "" 3.3v agnd cs00 cs01 cs02 cs03 cs05 cs06 cs07 dbgrx
-      dbgtx gnd i2cscl0 miso0 mosi0 sck0
+    (net "Net-(portb0-Pad4)"
+      (pins portb0-4)
+    )
+    (net "Net-(portb1-Pad4)"
+      (pins portb1-4)
+    )
+    (net "Net-(portb2-Pad4)"
+      (pins portb2-4)
+    )
+    (net "Net-(portb3-Pad4)"
+      (pins portb3-4)
+    )
+    (net "Net-(portb4-Pad4)"
+      (pins portb4-4)
+    )
+    (net "Net-(portb5-Pad4)"
+      (pins portb5-4)
+    )
+    (net "Net-(portb6-Pad4)"
+      (pins portb6-4)
+    )
+    (net "Net-(portb7-Pad4)"
+      (pins portb7-4)
+    )
+    (net "Net-(portb8-Pad4)"
+      (pins portb8-4)
+    )
+    (net "Net-(portb9-Pad4)"
+      (pins portb9-4)
+    )
+    (net "Net-(portb10-Pad4)"
+      (pins portb10-4)
+    )
+    (net "Net-(portb11-Pad4)"
+      (pins portb11-4)
+    )
+    (net "Net-(portf0-Pad6)"
+      (pins portf0-6)
+    )
+    (net "Net-(portf1-Pad6)"
+      (pins portf1-6)
+    )
+    (net cs04
+      (pins teensy1-42 portf2-4)
+    )
+    (net "Net-(portf2-Pad6)"
+      (pins portf2-6)
+    )
+    (net "Net-(portf3-Pad6)"
+      (pins portf3-6)
+    )
+    (net "Net-(portf4-Pad6)"
+      (pins portf4-6)
+    )
+    (net "Net-(portf5-Pad6)"
+      (pins portf5-6)
+    )
+    (net i2csda0
+      (pins porti2c0-5)
+    )
+    (net "Net-(teensy1-Pad62)"
+      (pins teensy1-62)
+    )
+    (net "Net-(teensy1-Pad61)"
+      (pins teensy1-61)
+    )
+    (net "Net-(teensy1-Pad60)"
+      (pins teensy1-60)
+    )
+    (net "Net-(teensy1-Pad59)"
+      (pins teensy1-59)
+    )
+    (net "Net-(teensy1-Pad58)"
+      (pins teensy1-58)
+    )
+    (net "Net-(teensy1-Pad86)"
+      (pins teensy1-86)
+    )
+    (net "Net-(teensy1-Pad85)"
+      (pins teensy1-85)
+    )
+    (net "Net-(teensy1-Pad84)"
+      (pins teensy1-84)
+    )
+    (net "Net-(teensy1-Pad83)"
+      (pins teensy1-83)
+    )
+    (net "Net-(teensy1-Pad82)"
+      (pins teensy1-82)
+    )
+    (net "Net-(teensy1-Pad81)"
+      (pins teensy1-81)
+    )
+    (net "Net-(teensy1-Pad80)"
+      (pins teensy1-80)
+    )
+    (net "Net-(teensy1-Pad79)"
+      (pins teensy1-79)
+    )
+    (net "Net-(teensy1-Pad78)"
+      (pins teensy1-78)
+    )
+    (net "Net-(teensy1-Pad77)"
+      (pins teensy1-77)
+    )
+    (net "Net-(teensy1-Pad76)"
+      (pins teensy1-76)
+    )
+    (net "Net-(teensy1-Pad75)"
+      (pins teensy1-75)
+    )
+    (net "Net-(teensy1-Pad74)"
+      (pins teensy1-74)
+    )
+    (net "Net-(teensy1-Pad73)"
+      (pins teensy1-73)
+    )
+    (net "Net-(teensy1-Pad72)"
+      (pins teensy1-72)
+    )
+    (net "Net-(teensy1-Pad71)"
+      (pins teensy1-71)
+    )
+    (net "Net-(teensy1-Pad70)"
+      (pins teensy1-70)
+    )
+    (net "Net-(teensy1-Pad69)"
+      (pins teensy1-69)
+    )
+    (net "Net-(teensy1-Pad68)"
+      (pins teensy1-68)
+    )
+    (net "Net-(teensy1-Pad67)"
+      (pins teensy1-67)
+    )
+    (net "Net-(teensy1-Pad66)"
+      (pins teensy1-66)
+    )
+    (net "Net-(teensy1-Pad65)"
+      (pins teensy1-65)
+    )
+    (net "Net-(teensy1-Pad64)"
+      (pins teensy1-64)
+    )
+    (net "Net-(teensy1-Pad63)"
+      (pins teensy1-63)
+    )
+    (net "Net-(teensy1-Pad57)"
+      (pins teensy1-57)
+    )
+    (net "Net-(teensy1-Pad56)"
+      (pins teensy1-56)
+    )
+    (net "Net-(teensy1-Pad55)"
+      (pins teensy1-55)
+    )
+    (net "Net-(teensy1-Pad54)"
+      (pins teensy1-54)
+    )
+    (net "Net-(teensy1-Pad53)"
+      (pins teensy1-53)
+    )
+    (net "Net-(teensy1-Pad51)"
+      (pins teensy1-51)
+    )
+    (net "Net-(teensy1-Pad47)"
+      (pins teensy1-47)
+    )
+    (net i2csca0
+      (pins teensy1-45)
+    )
+    (net "Net-(teensy1-Pad44)"
+      (pins teensy1-44)
+    )
+    (net "Net-(teensy1-Pad43)"
+      (pins teensy1-43)
+    )
+    (net "Net-(teensy1-Pad41)"
+      (pins teensy1-41)
+    )
+    (net "Net-(teensy1-Pad40)"
+      (pins teensy1-40)
+    )
+    (net "Net-(teensy1-Pad39)"
+      (pins teensy1-39)
+    )
+    (net "Net-(teensy1-Pad38)"
+      (pins teensy1-38)
+    )
+    (net "Net-(teensy1-Pad2)"
+      (pins teensy1-2)
+    )
+    (net "Net-(teensy1-Pad3)"
+      (pins teensy1-3)
+    )
+    (net "Net-(teensy1-Pad4)"
+      (pins teensy1-4)
+    )
+    (net "Net-(teensy1-Pad5)"
+      (pins teensy1-5)
+    )
+    (net "Net-(teensy1-Pad6)"
+      (pins teensy1-6)
+    )
+    (net "Net-(teensy1-Pad8)"
+      (pins teensy1-8)
+    )
+    (net "Net-(teensy1-Pad9)"
+      (pins teensy1-9)
+    )
+    (net "Net-(teensy1-Pad10)"
+      (pins teensy1-10)
+    )
+    (net "Net-(teensy1-Pad37)"
+      (pins teensy1-37)
+    )
+    (net "Net-(teensy1-Pad36)"
+      (pins teensy1-36)
+    )
+    (net "Net-(teensy1-Pad35)"
+      (pins teensy1-35)
+    )
+    (net "Net-(teensy1-Pad34)"
+      (pins teensy1-34)
+    )
+    (net "Net-(teensy1-Pad33)"
+      (pins teensy1-33)
+    )
+    (net "Net-(teensy1-Pad32)"
+      (pins teensy1-32)
+    )
+    (net "Net-(teensy1-Pad31)"
+      (pins teensy1-31)
+    )
+    (net "Net-(teensy1-Pad30)"
+      (pins teensy1-30)
+    )
+    (net "Net-(teensy1-Pad29)"
+      (pins teensy1-29)
+    )
+    (net "Net-(teensy1-Pad28)"
+      (pins teensy1-28)
+    )
+    (net "Net-(teensy1-Pad27)"
+      (pins teensy1-27)
+    )
+    (net "Net-(teensy1-Pad25)"
+      (pins teensy1-25)
+    )
+    (net "Net-(teensy1-Pad21)"
+      (pins teensy1-21)
+    )
+    (net "Net-(teensy1-Pad15)"
+      (pins teensy1-15)
+    )
+    (net "Net-(teensy1-Pad16)"
+      (pins teensy1-16)
+    )
+    (net "Net-(teensy1-Pad20)"
+      (pins teensy1-20)
+    )
+    (net "Net-(teensy1-Pad18)"
+      (pins teensy1-18)
+    )
+    (net "Net-(teensy1-Pad17)"
+      (pins teensy1-17)
+    )
+    (class kicad_default "" 3.3v "Net-(portb0-Pad4)" "Net-(portb1-Pad4)" "Net-(portb10-Pad4)"
+      "Net-(portb11-Pad4)" "Net-(portb2-Pad4)" "Net-(portb3-Pad4)" "Net-(portb4-Pad4)"
+      "Net-(portb5-Pad4)" "Net-(portb6-Pad4)" "Net-(portb7-Pad4)" "Net-(portb8-Pad4)"
+      "Net-(portb9-Pad4)" "Net-(portf0-Pad6)" "Net-(portf1-Pad6)" "Net-(portf2-Pad6)"
+      "Net-(portf3-Pad6)" "Net-(portf4-Pad6)" "Net-(portf5-Pad6)" "Net-(teensy1-Pad10)"
+      "Net-(teensy1-Pad15)" "Net-(teensy1-Pad16)" "Net-(teensy1-Pad17)" "Net-(teensy1-Pad18)"
+      "Net-(teensy1-Pad2)" "Net-(teensy1-Pad20)" "Net-(teensy1-Pad21)" "Net-(teensy1-Pad25)"
+      "Net-(teensy1-Pad27)" "Net-(teensy1-Pad28)" "Net-(teensy1-Pad29)" "Net-(teensy1-Pad3)"
+      "Net-(teensy1-Pad30)" "Net-(teensy1-Pad31)" "Net-(teensy1-Pad32)" "Net-(teensy1-Pad33)"
+      "Net-(teensy1-Pad34)" "Net-(teensy1-Pad35)" "Net-(teensy1-Pad36)" "Net-(teensy1-Pad37)"
+      "Net-(teensy1-Pad38)" "Net-(teensy1-Pad39)" "Net-(teensy1-Pad4)" "Net-(teensy1-Pad40)"
+      "Net-(teensy1-Pad41)" "Net-(teensy1-Pad43)" "Net-(teensy1-Pad44)" "Net-(teensy1-Pad47)"
+      "Net-(teensy1-Pad5)" "Net-(teensy1-Pad51)" "Net-(teensy1-Pad53)" "Net-(teensy1-Pad54)"
+      "Net-(teensy1-Pad55)" "Net-(teensy1-Pad56)" "Net-(teensy1-Pad57)" "Net-(teensy1-Pad58)"
+      "Net-(teensy1-Pad59)" "Net-(teensy1-Pad6)" "Net-(teensy1-Pad60)" "Net-(teensy1-Pad61)"
+      "Net-(teensy1-Pad62)" "Net-(teensy1-Pad63)" "Net-(teensy1-Pad64)" "Net-(teensy1-Pad65)"
+      "Net-(teensy1-Pad66)" "Net-(teensy1-Pad67)" "Net-(teensy1-Pad68)" "Net-(teensy1-Pad69)"
+      "Net-(teensy1-Pad70)" "Net-(teensy1-Pad71)" "Net-(teensy1-Pad72)" "Net-(teensy1-Pad73)"
+      "Net-(teensy1-Pad74)" "Net-(teensy1-Pad75)" "Net-(teensy1-Pad76)" "Net-(teensy1-Pad77)"
+      "Net-(teensy1-Pad78)" "Net-(teensy1-Pad79)" "Net-(teensy1-Pad8)" "Net-(teensy1-Pad80)"
+      "Net-(teensy1-Pad81)" "Net-(teensy1-Pad82)" "Net-(teensy1-Pad83)" "Net-(teensy1-Pad84)"
+      "Net-(teensy1-Pad85)" "Net-(teensy1-Pad86)" "Net-(teensy1-Pad9)" agnd
+      cs00 cs01 cs02 cs03 cs04 cs05 cs06 cs07 dbgrx dbgtx gnd i2csca0 i2cscl0
+      i2csda0 miso0 mosi0 sck0
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

@@ -37,7 +37,7 @@ miso0
 Text GLabel 2200 1900 2    50   Input ~ 0
 sck0
 Text GLabel 2200 1700 2    50   Input ~ 0
-cs01
+cs02
 Text GLabel 2200 1600 2    50   Input ~ 0
 agnd
 $Comp
@@ -64,7 +64,7 @@ miso0
 Text GLabel 3950 1950 2    50   Input ~ 0
 sck0
 Text GLabel 3950 1750 2    50   Input ~ 0
-cs02
+cs03
 Text GLabel 3950 1650 2    50   Input ~ 0
 agnd
 $Comp
@@ -91,7 +91,7 @@ miso0
 Text GLabel 5600 1950 2    50   Input ~ 0
 sck0
 Text GLabel 5600 1750 2    50   Input ~ 0
-cs03
+cs04
 Text GLabel 5600 1650 2    50   Input ~ 0
 agnd
 $Comp
