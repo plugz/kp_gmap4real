@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  250190 -113030  48260 -113030  48260 -54610  250190 -54610
-            250190 -113030)
+      (path pcb 0  214630 -106680  49530 -106680  49530 -57150  214630 -57150
+            214630 -106680)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -33,49 +33,69 @@
     )
   )
   (placement
+    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (place jmp_2 212090 -104140 back 180 (PN Jumper_3_Open))
+      (place jmp_1 212090 -95250 back 180 (PN Jumper_3_Open))
+      (place jmp_0 212090 -86360 back 180 (PN Jumper_3_Open))
+    )
     (component MountingHole:MountingHole_3.2mm_M3_Pad
-      (place centerhole1 205740 -83820 front 0 (PN MountingHole))
-      (place centerhole0 68580 -83820 front 0 (PN MountingHole))
-      (place hole4 245110 -58420 front 0 (PN MountingHole))
-      (place hole1 148590 -109485 front 0 (PN MountingHole))
-      (place hole3 52070 -109485 front 0 (PN MountingHole))
+      (place centerhole1 180975 -81915 front 0 (PN MountingHole))
+      (place centerhole0 66675 -81915 front 0 (PN MountingHole))
+      (place hole4 195580 -59690 front 0 (PN MountingHole))
+      (place hole1 123190 -104140 front 0 (PN MountingHole))
+      (place hole3 53340 -104140 front 0 (PN MountingHole))
     )
     (component homemade_footprints:SW_Cherry_MX_1.00u_PCB_WITHLEDHOLE
-      (place btn15 219710 -90170 front 0 (PN SW_Push))
-      (place btn14 196850 -90170 front 0 (PN SW_Push))
-      (place btn13 173990 -90170 front 0 (PN SW_Push))
-      (place btn12 151130 -90170 front 0 (PN SW_Push))
-      (place btn11 128270 -90170 front 0 (PN SW_Push))
-      (place btn10 105410 -90170 front 0 (PN SW_Push))
-      (place btn9 82550 -90170 front 0 (PN SW_Push))
-      (place btn8 59690 -90170 front 0 (PN SW_Push))
-      (place btn7 219710 -67310 front 0 (PN SW_Push))
-      (place btn6 196850 -67310 front 0 (PN SW_Push))
-      (place btn5 173990 -67310 front 0 (PN SW_Push))
-      (place btn4 151130 -67310 front 0 (PN SW_Push))
-      (place btn3 128270 -67310 front 0 (PN SW_Push))
-      (place btn2 105410 -67310 front 0 (PN SW_Push))
-      (place btn1 82550 -67310 front 0 (PN SW_Push))
+      (place btn15 193040 -86360 front 0 (PN SW_Push))
+      (place btn14 173990 -86360 front 0 (PN SW_Push))
+      (place btn13 154940 -86360 front 0 (PN SW_Push))
+      (place btn12 135890 -86360 front 0 (PN SW_Push))
+      (place btn11 116840 -86360 front 0 (PN SW_Push))
+      (place btn10 97790 -86360 front 0 (PN SW_Push))
+      (place btn9 78740 -86360 front 0 (PN SW_Push))
+      (place btn8 59690 -86360 front 0 (PN SW_Push))
+      (place btn7 193040 -67310 front 0 (PN SW_Push))
+      (place btn6 173990 -67310 front 0 (PN SW_Push))
+      (place btn5 154940 -67310 front 0 (PN SW_Push))
+      (place btn4 135890 -67310 front 0 (PN SW_Push))
+      (place btn3 116840 -67310 front 0 (PN SW_Push))
+      (place btn2 97790 -67310 front 0 (PN SW_Push))
+      (place btn1 78740 -67310 front 0 (PN SW_Push))
       (place btn0 59690 -67310 front 0 (PN SW_Push))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place jmp_2 247650 -73660 back 180 (PN Jumper_3_Open))
-      (place jmp_1 243840 -73660 back 180 (PN Jumper_3_Open))
-      (place jmp_0 240030 -73660 back 180 (PN Jumper_3_Open))
-    )
     (component MountingHole:MountingHole_3.2mm_M3_Pad::1
-      (place hole5 245110 -109485 front 0 (PN MountingHole))
-      (place hole2 148590 -58420 front 0 (PN MountingHole))
-      (place hole0 52070 -58420 front 0 (PN MountingHole))
+      (place hole5 195580 -104140 front 0 (PN MountingHole))
+      (place hole2 123190 -59690 front 0 (PN MountingHole))
+      (place hole0 53340 -59690 front 0 (PN MountingHole))
     )
     (component "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal"
-      (place port0 240030 -95250 back 180 (PN Conn_02x04_Odd_Even))
+      (place port0 210820 -73660 back 180 (PN Conn_02x04_Odd_Even))
     )
     (component "Package_DIP:DIP-28_W7.62mm"
-      (place mcp23s17_0 228600 -100330 back 180 (PN MCP23S17_SP))
+      (place mcp23s17_0 208280 -66040 back 0 (PN MCP23S17_SP))
     )
   )
   (library
+    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (outline (path signal 50  1800 -6850  1800 1800))
+      (outline (path signal 50  -1800 -6850  1800 -6850))
+      (outline (path signal 50  -1800 1800  -1800 -6850))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  1330 -1270  1330 -6410))
+      (outline (path signal 120  -1330 -1270  -1330 -6410))
+      (outline (path signal 120  -1330 -6410  1330 -6410))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -6350  -1270 635))
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (outline (path signal 100  1270 1270  1270 -6350))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image MountingHole:MountingHole_3.2mm_M3_Pad
       (outline (path signal 50  3450 0  3369.34 -741.648  3131.14 -1448.62  2746.52 -2087.85
             2233.48 -2629.46  1616.01 -3048.12  922.973 -3324.25  186.779 -3444.94
@@ -121,26 +141,6 @@
       (keepout "" (circle B.Cu 1700 -7620 -5080))
       (keepout "" (circle F.Cu 4000 -2540 -5080))
       (keepout "" (circle B.Cu 4000 -2540 -5080))
-    )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  1800 -6850  1800 1800))
-      (outline (path signal 50  -1800 -6850  1800 -6850))
-      (outline (path signal 50  -1800 1800  -1800 -6850))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  1330 -1270  1330 -6410))
-      (outline (path signal 120  -1330 -1270  -1330 -6410))
-      (outline (path signal 120  -1330 -6410  1330 -6410))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  -1270 -6350  -1270 635))
-      (outline (path signal 100  1270 -6350  -1270 -6350))
-      (outline (path signal 100  1270 1270  1270 -6350))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
     )
     (image MountingHole:MountingHole_3.2mm_M3_Pad::1
       (outline (path signal 150  3200 0  3119.77 -712.067  2883.1 -1388.43  2501.86 -1995.17
@@ -293,8 +293,8 @@
   )
   (network
     (net gnd
-      (pins btn15-1 btn14-1 btn13-1 btn12-1 btn11-1 btn10-1 btn9-1 btn8-1 btn7-1 btn6-1
-        btn5-1 btn4-1 btn3-1 btn2-1 btn1-1 btn0-1 jmp_2-3 jmp_1-3 jmp_0-3 port0-1
+      (pins jmp_2-3 btn15-1 btn14-1 btn13-1 btn12-1 btn11-1 btn10-1 btn9-1 btn8-1
+        btn7-1 btn6-1 btn5-1 btn4-1 btn3-1 btn2-1 btn1-1 btn0-1 jmp_1-3 jmp_0-3 port0-1
         mcp23s17_0-10)
     )
     (net btn08
