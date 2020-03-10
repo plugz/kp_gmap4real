@@ -2,3 +2,21 @@ quantities
 b: 10
 f: 6
 teensy: 1
+
+
+mcp23s17: 10
+mcp3008: 6
+teensy: 1
+
+mcp23s17 socket: 10
+mcp3008 socket: 6
+teensy socket: 1
+
+connectors female: 16 * 2 (teensy->card) + 6 * 2 (faders) + 2*2(spares pour bouttons en spare) = 32 + 12 + 4 = 48
+male: 48
+cables: 50cm*18 = 9m 
+
+faders 60mm: 4 * 8 = 32
+faders 100mm: 2*8 = 16
+
+buttons: 10 * 16 = 160
